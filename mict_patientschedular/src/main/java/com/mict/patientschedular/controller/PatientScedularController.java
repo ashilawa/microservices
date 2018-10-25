@@ -8,6 +8,7 @@ import java.util.Properties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.DefaultPropertiesPersister;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -17,6 +18,7 @@ import com.mict.patientschedular.model.PatientScedular;
 
 
 @RestController
+@CrossOrigin
 public class PatientScedularController {
 
 	@Autowired
