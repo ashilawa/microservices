@@ -41,8 +41,7 @@ public class PatientScedularController {
 			props.put("mict.callingAeTitle", ps.getCallingAeTitle());
 			props.put("mict.useModalityWorkListStudyUID", ps.getUseModalityWorkListStudyUID());
 
-			File f = new File("C:\\Users\\akshays3\\Documents\\workspace\\mict_patientschedular\\src\\main\\resources\\patienceschedular.properties");
-
+			File f = new File("C:\\Users\\akshays3\\git\\localMicroservices\\mict_patientschedular\\src\\main\\resources\\patienceschedular.properties");
 			OutputStream out = new FileOutputStream( f );
 			// write into it
 			DefaultPropertiesPersister p = new DefaultPropertiesPersister();
