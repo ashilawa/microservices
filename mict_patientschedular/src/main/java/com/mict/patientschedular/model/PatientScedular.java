@@ -4,7 +4,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
-
 @Component
 @PropertySource("classpath:patienceschedular.properties")
 @ConfigurationProperties("mict")
