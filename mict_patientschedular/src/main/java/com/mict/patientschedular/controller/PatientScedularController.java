@@ -33,7 +33,7 @@ public class PatientScedularController {
 	{
 		patientScedularService.updatePatientScedularData(patientScedular);
 	
-		return new ResponseEntity(HttpStatus.OK);
+		return new ResponseEntity<>(HttpStatus.OK);
 	}
 
 }

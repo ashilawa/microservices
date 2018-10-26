@@ -31,6 +31,6 @@ public class MictEcgController {
 	{
 		ecgService.updateEcgData(ecgData);
 		
-		return new ResponseEntity(HttpStatus.OK);
+		return new ResponseEntity<>(HttpStatus.OK);
 	}
 }
